@@ -1,1 +1,80 @@
-Hello World! This is Khushal P Bharadwaj!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushal P Bharadwaj</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text-color: #000000;
+    }
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      font-family: 'Google Sans', system-ui, -apple-system, sans-serif;
+      font-weight: 400;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;  
+      justify-content: center; 
+      align-items: center;    
+      min-height: 100vh;
+      min-height: 100dvh;
+      text-align: center;
+      background-color: #ffffff;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: var(--text-color);
+    }
+    h1 {
+      font-size: clamp(1.8rem, 7vw, 3.5rem); 
+      font-weight: 400;
+      margin: 0 0 20px 0;
+    }
+    .social-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      font-size: clamp(0.9rem, 3.5vw, 1.3rem);
+    }
+    .social-link {
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: 400;
+    }
+    .social-link:hover {
+      text-decoration: underline;
+    }
+    .separator {
+      color: var(--text-color);
+      font-weight: 400;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <h1>Khushal P Bharadwaj</h1>
+  <div class="social-container">
+    <a href="https://linkedin.com/in/khushalpbharadwaj" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <span class="separator">&bull;</span>
+    <a href="https://github.com/kpb77" class="social-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+  <footer>
+    &copy; 2026 Khushal P Bharadwaj &bull; MIT License
+  </footer>
+</body>
+</html>
